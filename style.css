@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff4cc;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(106 149 67 / 97%);
+    height: 80px;
+    box-shadow: 0px 4px 6px #00000033;
+}
+
+.icon {
+    position: absolute;
+    margin: 10px;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.head h1 {
+    font-size: 24px;
+    margin-left: 90px;
+}
+
+.head h1:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    margin-right: 80px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.links:hover{
+    transition: 0.5s;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.box{
+    background-color: rgb(255 186 142);
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 20%;
+    right: 35%;
+    box-shadow: 5px 5px 10px #00000033;
+    border-radius: 10px;
+}
+
+.sign{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#user{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-weight: 50;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#pass{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    font-weight: 50;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.submit{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    font-weight: 50;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.submit:hover{
+    background-color:  rgb(106 149 67 / 97%);
+    color: white;
+}
+
+.reset{
+    position: absolute;
+    top: 70%;
+    left: 59%;
+    font-weight: 50;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.reset:hover{
+    background-color:  rgb(106 149 67 / 97%);
+    color: white;
+}

@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100wh;
+    background-color: #fff4cc;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgb(106 149 67 / 97%);
+    height: 80px;
+}
+
+.icon {
+    position: absolute;
+    margin: 10px;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.head h1 {
+    font-size: 24px;
+    margin-left: 90px;
+}
+
+.head h1:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    margin-right: 80px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.links:hover{
+    transition: 0.5s;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.menu-head{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.box1{
+    position: absolute;
+    left: 5%;
+    top: 225px;
+    width: 400px;
+    height: 400px;
+    background-color: #ffeba3;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img1{
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.text1{
+    position: absolute;
+    top: 55%;
+    left: 9.5%;
+    font-size: 18px;
+    font-weight: 500;
+    width: 350px;
+}
+
+.box2{
+    position: absolute;
+    left: 37.5%;
+    top: 225px;
+    width: 400px;
+    height: 400px;
+    background-color: #ffeba3;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #00000033;
+}
+
+.img2{
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.text2{
+    position: absolute;
+    top: 55%;
+    left: 9.5%;
+    font-size: 18px;
+    font-weight: 500;
+    width: 350px;
+}
+
+.box3{
+    position: absolute;
+    left: 70%;
+    top: 225px;
+    width: 400px;
+    height: 400px;
+    background-color: #ffeba3;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #00000033;
+}
+
+.img3{
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.text3{
+    position: absolute;
+    top: 55%;
+    left: 9.5%;
+    font-size: 18px;
+    font-weight: 500;
+    width: 350px;
+}
+
+.box1:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.box2:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.box3:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+   
