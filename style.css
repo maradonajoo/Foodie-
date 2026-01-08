@@ -34,7 +34,6 @@ nav{
 .head h1:hover{
     transition: 0.5s;
     transform: scale(1.02);
-    cursor: pointer;
 }
 
 .links{
@@ -72,21 +71,13 @@ nav{
 
 #user{
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 15%;
     font-weight: 50;
     font-size: 25px;
     border-radius: 10px;
 }
 
-#pass{
-    position: absolute;
-    top: 55%;
-    left: 15%;
-    font-weight: 50;
-    font-size: 25px;
-    border-radius: 10px;
-}
 
 .submit{
     position: absolute;
