@@ -35,7 +35,6 @@ nav{
 .head h1:hover{
     transition: 0.5s;
     transform: scale(1.02);
-    cursor: pointer;
 }
 
 .links{
@@ -49,7 +48,6 @@ nav{
 .links:hover{
     transition: 0.5s;
     font-weight: 600;
-    cursor: pointer;
 }
 
 hr{
